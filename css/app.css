@@ -282,6 +282,7 @@ p a:hover {
 }
 
 .contact-channel {
+    display: table;
     margin: 0 auto 20px;
     min-height: 100px;
 }
@@ -372,7 +373,13 @@ p a:hover {
     }
     
     .contact-channel {
+        display: block;
         border: 1px solid;
+    }
+    
+    .contact-channel:hover, .contact-channel a:hover {
+        background-color: #FF530D;
+        color: #EFEFEF;
     }
     
     .contact-channel a {
