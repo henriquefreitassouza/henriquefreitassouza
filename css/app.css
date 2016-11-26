@@ -10,10 +10,6 @@
 
 /* RESET */
 
-body {
-    overflow-x: hidden;
-}
-
 hgroup {
     margin-bottom: 30px;
     text-align: center;
@@ -121,13 +117,19 @@ p a:hover {
 
 /* HEADER */
 
+#page-header, main {
+    overflow-x: hidden;
+}
+
 #page-header {
     background-color: #FF530D;
+    background-size: cover;
+    background-size: cover;
 }
 
 #page-header nav {
     background-color: #2B3A42;
-    border: 0;
+    border: none;
 }
 
 #page-header nav ul li {
@@ -157,7 +159,7 @@ p a:hover {
 }
 
 #hero hgroup h1 {
-    font-size: 60px;
+    font-size: 54px;
 }
 
 #hero hgroup h2 {
@@ -179,11 +181,11 @@ p a:hover {
 
 /* ABOUT */
 
-#about div {
+#about .about-picture {
     margin-bottom: 30px;
 }
 
-#about div img {
+#about .about-picture img {
     border: 1px solid #2B3A42;
     margin: auto;
     max-width: 248px;
@@ -207,26 +209,22 @@ p a:hover {
 
 /* SKILLS */
 
-#skills dl {
-    color: #EFEFEF;
-}
-
-#skills dl dt, #skills dl dd {
+.skill-item {
     background-color: #FF530D;
-    font-size: 18px;
+    color: #EFEFEF;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 900;
     margin-bottom: 20px;
     padding: 20px 10px;
+    text-transform: uppercase;
 }
 
-#skills dl dt {
-    color: #EFEFEF;
-    float: left;
+.skill-item strong {
+    font-size: 18px;
 }
 
-#skills dl dd {
-    font-size: 36px;
-    line-height: 1em;
-    text-align: right;
+.skill-item span {
+    font-size: 28px;
 }
 
 /* PROCESS */
@@ -275,31 +273,24 @@ p a:hover {
     padding-bottom: 50px;
 }
 
-#hire ul {
-    text-align: center;
-    margin: auto;
-}
-
-#hire ul li {
-    display: table;
-    min-height: 100px;
-    margin: 0 auto 10px;
-}
-
-#hire ul li img {
-    margin: auto;
-}
-
-#hire ul li a, #hire ul li span {
+.contact-channel, .contact-channel a {
     color: #FF530D;
-    display: table;
     font-size: 16px;
-}
-
-#hire ul li span {
-    display: block;
     font-family: 'Raleway', sans-serif;
     font-weight: 900;
+    text-align: center;
+}
+
+.contact-channel {
+    margin: 0 auto 20px;
+    min-height: 100px;
+}
+
+.contact-channel:last-child {
+    margin-bottom: 0;
+}
+.contact-channel img {
+    margin: auto;
 }
 
 /* FOOTER */
@@ -360,7 +351,7 @@ p a:hover {
     
     /* ABOUT */
     
-    #about div img {
+    #about .about-picture img {
         max-width: 348px;
     }
     
@@ -375,32 +366,30 @@ p a:hover {
     
     /* HIRE */
     
-    #hire ul li {
-        display: table;
-        width: 100%;
-    }
-    
-    #hire ul li a, #hire ul li span {
+    .contact-channel, .contact-channel a {
         font-size: 30px;
         text-align: left;
     }
     
-    #hire ul li img {
-        float: left;
-        margin-right: 20px;
+    .contact-channel {
+        border: 1px solid;
     }
     
-    #hire ul li span {
-        display: table;
-        margin: 28px 0 28px 0;
+    .contact-channel a {
+        display: block;
+    }
+    
+    .contact-channel img {
+        display: inline;
+        margin-right: 20px;
     }
     
     /* FOOTER */
 
     #site-footer strong {
         display: block;
-        float: left;
         font-size: 30px;
+        float: left;
         margin-left: 0;
     }
     
@@ -436,7 +425,7 @@ p a:hover {
     
     /* ABOUT */
     
-    #about div {
+    #about .about-picture {
         float: left;
         margin-bottom: 0;
         margin-right: 40px;
@@ -446,22 +435,6 @@ p a:hover {
     
     .process-image {
         max-height: 350px;
-    }    
-    
-    /* HIRE */
-    
-    #hire ul li {
-        background-color: #FF530D;
-        height: 100px;    
-    }
-    
-    #hire ul li a, #hire ul li span {
-        color: #EFEFEF;
-    }
-    
-    #hire ul li img {
-        background-color: #FFFFFF;
-        padding-right: 10px;
     }
     
     /* FOOTER */
