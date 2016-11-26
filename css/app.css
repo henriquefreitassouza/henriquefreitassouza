@@ -382,6 +382,11 @@ p a:hover {
         color: #EFEFEF;
     }
     
+    .contact-channel.no-hover {
+        background-color: #FFFFFF;
+        color: #FF530D;
+    }
+
     .contact-channel a {
         display: block;
     }
