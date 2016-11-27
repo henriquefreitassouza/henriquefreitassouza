@@ -555,31 +555,6 @@ p a:hover {
     text-transform: uppercase;
 }
 
-.user-journey .panel-body h6 {
-    color: #FF530D;
-}
-
-.user-journey-link {
-    color: #FF530D;
-}
-
-.user-journey-link h5 {
-    font-size: 14px;
-    text-align: left;
-}
-
-.user-journey-link h5 span {
-    float: right;
-}
-
-.user-journey-link:hover, .user-journey-link:focus {
-    color: #2B3A42;
-}
-
-.user-journey-link-active {
-    color: #2B3A42;
-}
-
 /* MODAL */
 
 #portfolio-modal {
@@ -588,51 +563,6 @@ p a:hover {
 
 #modal-img {
     margin: auto;
-}
-
-/* PERSONAS */
-
-.persona {
-    margin-bottom: 20px;
-}
-
-.persona:last-child {
-    margin-bottom: 0;
-}
-
-.persona-card {
-    background-color: #FF530D;
-    color: #EFEFEF;
-    margin: auto;
-    max-width: 300px;
-    padding: 30px 10px;
-    text-align: center;
-}
-
-.persona-card img {
-    margin: auto auto 20px;
-}
-
-.persona-card strong.name {
-    font-family: 'Raleway', sans-serif;
-    font-size: 18px;
-    font-weight: 900;
-    text-transform: uppercase;
-}
-
-.persona-card span, .persona-card strong.title {
-    font-family: 'Roboto Condensed', sans-serif;
-    font-size: 16px;
-    text-transform: uppercase;
-}
-
-.persona-card span {
-    display: block;
-    margin: 10px auto;
-}
-
-.persona-card strong.title {
-    letter-spacing: 0.3em;
 }
 
 /* PRODUCT */
@@ -658,30 +588,4 @@ p a:hover {
 
 .portfolio-product-item strong {
     font-size: 18px;
-}
-
-.highlighted-info {
-    font-family: 'Roboto Condensed', sans-serif;
-    font-size: 18px;
-    font-weight: bold;
-    margin-bottom: 20px;
-}
-
-@media screen and (min-width: 768px) {
-    /* STRATEGY */
-
-    #portfolio-tab-content .disposable {
-        display: none;
-        margin: 0;
-    }
-    
-    .persona {
-        margin-bottom: 0;
-    }
-}
-
-@media screen and (min-width: 992px) {
-    .persona-card strong.name {
-        font-size: 24px;
-    }
 }
