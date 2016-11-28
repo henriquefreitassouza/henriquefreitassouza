@@ -16,9 +16,7 @@ $(document).ready(function(){
         e.preventDefault();
         smoothScroll(entireDoc, $(this).attr('href'));
     });
-    
-    //$('[data-toggle="tooltip"]').tooltip();
-    
+
     //Enable tab navigation
     $('#portfolio-item-navigation').on('click', 'a', function(e) {
         e.preventDefault();

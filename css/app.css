@@ -468,6 +468,14 @@ p a:hover {
     text-align: center;
 }
 
+.portfolio-items > a {
+    color: #FF530D;
+    display: table;
+    margin: 30px auto 0;
+    font-size: 18px;
+    text-align: center;
+}
+
 .portfolio-items .breadcrumb a {
     color: #FF530D;
 }
@@ -509,6 +517,10 @@ p a:hover {
 }
 
 @media screen and (min-width: 768px) {
+    .portfolio-items > a {
+        margin-top: 0;    
+    }
+    
     .portfolio-item:last-child {
         margin-bottom: 30px;    
     }
