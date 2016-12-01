@@ -486,6 +486,20 @@ p a:hover {
     text-transform: uppercase;
 }
 
+.portfolio-items .alert {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.portfolio-items .alert ul {
+    list-style-type: disc;
+    margin-left: 15px;
+}
+
+.portfolio-items .alert a {
+    font-family: 'Roboto Condensed', sans-serif;
+    text-transform: none;
+}
+
 .portfolio-item {
     margin-bottom: 30px;
     text-align: center;
