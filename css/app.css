@@ -384,6 +384,16 @@ p a:hover {
         color: #FF530D;
     }
 
+    /* Fix for Safari */
+    .contact-channel.no-hover img, .contact-channel.no-hover > span {
+        float: left;
+    }
+    
+    .contact-channel.no-hover span {
+        margin-top: 25px;
+    }
+    /* End fix */
+    
     .contact-channel a {
         display: block;
     }
