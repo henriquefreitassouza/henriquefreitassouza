@@ -203,26 +203,6 @@ p a:hover {
     text-align: center;
 }
 
-/* SKILLS */
-
-.skill-item {
-    background-color: #FF530D;
-    color: #EFEFEF;
-    font-family: 'Raleway', sans-serif;
-    font-weight: 900;
-    margin-bottom: 20px;
-    padding: 20px 10px;
-    text-transform: uppercase;
-}
-
-.skill-item strong {
-    font-size: 18px;
-}
-
-.skill-item span {
-    font-size: 28px;
-}
-
 /* PROCESS */
 
 #process h3 {
@@ -534,6 +514,10 @@ p a:hover {
     text-transform: none;
 }
 
+.portfolio-items > h3, .portfolio-items > p {
+    display: none;
+}
+
 .portfolio-item {
     margin-bottom: 30px;
     text-align: center;
@@ -580,9 +564,16 @@ p a:hover {
     }
 }
 
+@media screen and (min-width: 768px) {
+    .portfolio-items > h3, .portfolio-items > p {
+        display: block;
+        margin-bottom: 30px;
+    }
+}
+
 /***** PORTFOLIO ITEM *****/
 
-.portfolio-item-description {
+.portfolio-achievments {
     margin-bottom: 30px;
 }
 
