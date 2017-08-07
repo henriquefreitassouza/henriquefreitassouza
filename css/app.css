@@ -430,6 +430,11 @@ p a:hover {
         margin-right: 40px;
     }
     
+    #about a {
+        display: block;
+        margin: none;
+    }
+    
     /* PROCESS */
     
     .process-image {
