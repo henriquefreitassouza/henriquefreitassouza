@@ -332,6 +332,11 @@ p a:hover {
         max-width: 348px;
     }
     
+    #about a {
+        display: block;
+        text-align: left;
+    }
+    
     /* PROCESS */
     
     .process-image {
@@ -428,11 +433,6 @@ p a:hover {
         float: left;
         margin-bottom: 0;
         margin-right: 40px;
-    }
-    
-    #about a {
-        display: block;
-        margin: none;
     }
     
     /* PROCESS */
